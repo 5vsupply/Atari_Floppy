@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 1d6ea2ca-2629-496c-8476-d1f6858b94a6)
 
   (paper "A4")
 
@@ -1410,8 +1412,8 @@
     (property "Reference" "C1" (id 0) (at 75.184 75.819 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "1pF" (id 1) (at 75.184 80.899 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    (property "Value" "2.2uF" (id 1) (at 75.184 80.899 0)
+      (effects (font (size 1.5113 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 73.66 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1605,7 +1607,7 @@
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/b2bfe2ef-2f69-49f8-9c51-d69fc4022c7e"
-      (reference "C1") (unit 1) (value "1pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/34f6a6cd-075f-4b6c-9fff-88464df18afc"
       (reference "H1") (unit 1) (value "MOUNT-PAD-ROUND3.0") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
