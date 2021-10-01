@@ -1,4 +1,4 @@
-19595215226429180
+19698849494164047
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -41132,6 +41132,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_Kycon_G7LX-A88S7-BP-xx_Horizontal
+10/100Base-T RJ45 ethernet magnetic transformer connector horizontal with green/yellow LEDs http://www.kycon.com/Pub_Eng_Draw/G7LX-A88S7-BP-GY.pdf
+RJ45 ethernet magnetic
+0
+16
+15
+Connector_RJ
 RJ45_Molex_0855135013_Vertical
 1 Port, RJ45, Series 85513, vertical, SMD, https://www.molex.com/pdm_docs/sd/855135013_sd.pdf
 RJ45 Vertical
@@ -47866,6 +47873,13 @@ dcdc traco 5w
 6
 6
 Converter_DCDC
+Converter_DCDC_TRACO_TEL12-xxxx_THT
+Traco 12W, THT (https://www.tracopower.com/sites/default/files/products/datasheets/tel12_datasheet.pdf)
+traco dcdc tht 12w
+0
+5
+5
+Converter_DCDC
 Converter_DCDC_TRACO_TEN10-xxxx_Dual_THT
 DCDC-Converter, TRACO, TEN10-xxxx, single output, https://assets.tracopower.com/20171102100522/TEN10/documents/ten10-datasheet.pdf
 DCDC-Converter TRACO TEN10-xxxx single output
@@ -49773,6 +49787,13 @@ Diode_SMD
 Diode_Bridge_Diotec_SO-DIL-Slim
 SMD diode bridge Diotec SO-DIL Slim, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40fs.pdf
 DFS SO-DIL Slim
+0
+4
+4
+Diode_SMD
+Diode_Bridge_OnSemi_SDIP-4L
+SMD diode bridge OnSemi SDIP-4L, see https://www.onsemi.com/pdf/datasheet/df10s1-d.pdf
+OnSemi Diode Bridge SDIP-4L
 0
 4
 4
@@ -52003,6 +52024,48 @@ Maxi APX ATX Automotive Blade Fuse Clip Holder
 4
 2
 Fuse
+Fuseholder_Littelfuse_100_series_5x20mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_100_series_5x25mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_100_series_5x30mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x20mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x25mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x30mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
 Fuseholder_Littelfuse_Nano2_154x
 Littelfuse NANO2 holder, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
 SMD Nano2 holder
@@ -52458,6 +52521,13 @@ Bourns SRP1245A SMD inductor
 2
 2
 Inductor_SMD
+L_Bourns_SRP1770TA_16.9x16.9mm
+Bourns SRP1770TA series SMD Inductor http://www.bourns.com/docs/Product-Datasheets/SRP1770TA.pdf
+Bourns SRP1770TA series SMD Inductor 
+0
+2
+2
+Inductor_SMD
 L_Bourns_SRP2313AA
 Bourns SRR1260 series SMD inductor http://www.bourns.com/docs/product-datasheets/srp2313aa.pdf
 Bourns SRR1260 SMD inductor
@@ -52881,6 +52951,13 @@ Inductor_SMD
 L_Pulse_PA4320
 Inductor SMD Pulse PA4320 http://productfinder.pulseeng.com/products/datasheets/P787.pdf
 Inductor SMD Pulse PA4320
+0
+2
+2
+Inductor_SMD
+L_Pulse_PA4344
+Pulse PA4344 / PM4344 Series SMD Inductors https://productfinder.pulseelectronics.com/api/public/uploads/product-attachments/datasheet_p771_1608107700.pdf
+Pulse PA4344 PM4344 Series SMD Inductors
 0
 2
 2
@@ -63908,6 +63985,20 @@ QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/64L_VQFN_8x8_with%2
 QFN NoLead
 0
 127
+65
+Package_DFN_QFN
+QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm
+QFN, 64 Pin (www.intel.com/content/www/us/en/ethernet-controllers/i210-ethernet-controller-datasheet.html), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+74
+65
+Package_DFN_QFN
+QFN-64-1EP_9x9mm_P0.5mm_EP3.4x3.4mm_ThermalVias
+QFN, 64 Pin (www.intel.com/content/www/us/en/ethernet-controllers/i210-ethernet-controller-datasheet.html), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+79
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP3.8x3.8mm
@@ -83097,6 +83188,13 @@ Transformer Ethernet SMD
 24
 24
 Transformer_SMD
+Transformer_Ethernet_Wuerth_749013011A
+Ethernet Transformer, Wuerth 749013011A, https://www.we-online.com/katalog/datasheet/749013011A.pdf
+Ethernet Transformer
+0
+16
+16
+Transformer_SMD
 Transformer_MACOM_SM-22
 https://cdn.macom.com/datasheets/ETC1-1-13.pdf
 RF Transformer
@@ -84356,17 +84454,10 @@ varistor SIOV
 0
 2
 2
-parts
-171826-4
+jig
+DIN14_Jig
 
 
 0
-4
-4
-parts
-NSR20F30NXT5G
-
-
 0
-2
-2
+0
